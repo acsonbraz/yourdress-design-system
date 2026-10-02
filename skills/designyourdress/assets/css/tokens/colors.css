@@ -1,0 +1,65 @@
+:root{
+  /* Brand ramp — built around the house gold #c69f70 */
+  --yd-gold-50:#faf6f0;
+  --yd-gold-100:#f3ebdf;
+  --yd-gold-200:#ebe3d6;   /* brand beige (official) */
+  --yd-gold-300:#dcc8a9;
+  --yd-gold-400:#d2b68d;
+  --yd-gold-500:#c69f70;   /* brand gold (official) */
+  --yd-gold-600:#b1885a;
+  --yd-gold-700:#8e6b45;
+  --yd-gold-800:#654c31;
+  --yd-gold-900:#3d2e1e;
+
+  /* Neutrals — warm, never bluish */
+  --yd-white:#ffffff;      /* brand white (official) */
+  --yd-neutral-50:#faf9f7;
+  --yd-neutral-100:#f4f2ee;
+  --yd-neutral-200:#e7e3dc;
+  --yd-neutral-300:#d5cfc5;
+  --yd-neutral-400:#a89f92;
+  --yd-neutral-500:#7d7469;
+  --yd-neutral-600:#5b544b;
+  --yd-neutral-700:#3f3931;
+  --yd-neutral-800:#2b2620;
+  --yd-neutral-900:#1c1815;
+
+  /* Semantic status */
+  --yd-success-500:#4f7a52;
+  --yd-success-100:#e6efe4;
+  --yd-pix-500:#3f7d62;    /* PIX discount copy — always this green */
+  --yd-warning-500:#b5762a;
+  --yd-warning-100:#f8ecd9;
+  --yd-danger-500:#a8453d;
+  --yd-danger-100:#f6e3e1;
+  --yd-whatsapp-500:#25d366;
+
+  /* Semantic aliases — use these in components */
+  --background:var(--yd-white);
+  --surface-page:var(--yd-white);
+  --surface-muted:var(--yd-neutral-100);
+  --surface-beige:var(--yd-gold-200);
+  --surface-card:var(--yd-white);
+  --surface-inverse:var(--yd-neutral-800);
+  --surface-overlay:rgba(28,24,21,.45);
+
+  --text-strong:var(--yd-neutral-900);
+  --text-body:var(--yd-neutral-800);
+  --text-muted:var(--yd-neutral-500);
+  --text-inverse:var(--yd-white);
+  --text-on-primary:var(--yd-white);
+  --text-price-pix:var(--yd-pix-500);
+  --text-link:var(--yd-gold-700);
+  --text-link-hover:var(--yd-gold-800);
+
+  --primary:var(--yd-gold-500);
+  --primary-hover:var(--yd-gold-600);
+  --primary-active:var(--yd-gold-700);
+  --primary-soft:var(--yd-gold-100);
+  --accent:var(--yd-gold-200);
+
+  --border-subtle:var(--yd-neutral-200);
+  --border-strong:var(--yd-neutral-300);
+  --border-focus:var(--yd-gold-500);
+  --ring:rgba(198,159,112,.35);
+}

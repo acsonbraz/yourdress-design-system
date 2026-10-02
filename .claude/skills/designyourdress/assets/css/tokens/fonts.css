@@ -1,0 +1,5 @@
+/* Webfonts from Google Fonts (no binaries shipped by the source repo).
+   League Spartan = títulos e números em destaque (preço principal, totais).
+   Raleway = corpo e UI: Light 300 / Regular 400 para texto, Bold 700 para destaques
+   no corpo e números de pouco destaque (tamanhos, frete, parcelas). */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");

@@ -1,0 +1,20 @@
+name: Validate design skill
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required files
+        run: |
+          test -f skills/designyourdress/SKILL.md
+          test -f skills/designyourdress/references/design-system.md
+          test -f skills/designyourdress/assets/css/styles.css
+      - name: Validate synchronized copies
+        run: |
+          diff -qr skills/designyourdress .claude/skills/designyourdress
+          diff -qr skills/designyourdress .agents/skills/designyourdress
